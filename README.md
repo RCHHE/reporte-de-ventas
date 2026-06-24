@@ -26,7 +26,6 @@ Este dashboard interactivo fue desarrollado en Power BI para analizar de manera 
 El proyecto sigue rigurosamente las mejores prácticas de Business Intelligence mediante la implementación de un **Modelo en Estrella**, garantizando un rendimiento óptimo en las consultas y simplicidad en el mantenimiento de las medidas.
 
 ![Modelo en Estrella - Power BI](modelo-datos.png)
-*(Nota: Asegúrate de subir esta captura a tu GitHub con el nombre exacto "modelo-datos.png")*
 
 ### Estructura del Modelo:
 * **Tabla de Hechos (`FACT_Venta`):** Centraliza las métricas transaccionales como `Cantidad`, `PrecioUnit`, `TotalC` y las llaves foráneas (`ID`) que conectan con las dimensiones.
